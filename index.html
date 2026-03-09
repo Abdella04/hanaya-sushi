@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanaya Sushi - Cuisine Japonaise Fraîche à Casablanca</title>
+    <meta name="description" content="Hanaya Sushi - Meilleur restaurant japonais à Casablanca. Sur place, à emporter et livraison disponible. Sushi frais, rolls et plateaux.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-info">
+                    <span><i class="fas fa-phone"></i> 05 20 32 59 73</span>
+                    <span><i class="fas fa-clock"></i> Ouvert: 11:00 - 23:30</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Casablanca</span>
+                </div>
+                <div class="top-bar-actions">
+                    <a href="https://wa.me/212618175001" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="https://www.instagram.com/hanaya_sushi.casa?igsh=c2Iwand2bjE1bWxq" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-fish"></i> Hanaya <span>Sushi</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                    <li><a href="menu.html" class="nav-link">Menu</a></li>
+                    <li><a href="about.html" class="nav-link">À propos</a></li>
+                    <li><a href="reviews.html" class="nav-link">Avis</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="tel:+212520325973" class="btn btn-primary">Call Now</a>
+                </div>
+                <div class="mobile-menu-btn" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sushi Frais à Casablanca</h1>
+            <p>Sur place &bull; À emporter &bull; Livraison rapide</p>
+            <div class="hero-buttons">
+                <a href="tel:+212618175001" class="btn btn-primary"><i class="fas fa-phone"></i> Appeler</a>
+                <a href="https://wa.me/212618175001?text=Hi%20Hanaya%20Sushi,%20I%20would%20like%20to%20order:" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> Commander</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <h4>Téléphone</h4>
+                <p>05 20 32 59 73</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <h4>Horaires</h4>
+                <p>11:00 - 23:30</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Adresse</h4>
+                <p>Romandie II, Casablanca</p>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-concierge-bell"></i>
+                <h4>Services</h4>
+                <p>Sur place &bull; À emporter &bull; Livraison</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <h2 class="section-title">Plats Populaires</h2>
+            <p class="section-subtitle">Découvrez nos créations sushi les plus appréciées</p>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-card-image"></div>
+                    <div class="menu-card-content">
+                        <h3>Salmon Sashimi</h3>
+                        <p>Fresh Atlantic salmon, thinly sliced, served with wasabi and pickled ginger</p>
+                        <div class="menu-card-footer">
+                            <span class="price">120 MAD</span>
+                            <a href="order.html" class="btn btn-outline">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image"></div>
+                    <div class="menu-card-content">
+                        <h3>Dragon Roll</h3>
+                        <p>Shrimp tempura, cucumber, avocado topping with eel sauce</p>
+                        <div class="menu-card-footer">
+                            <span class="price">95 MAD</span>
+                            <a href="order.html" class="btn btn-outline">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image"></div>
+                    <div class="menu-card-content">
+                        <h3>California Roll</h3>
+                        <p>Crab, avocado, cucumber with sesame seeds</p>
+                        <div class="menu-card-footer">
+                            <span class="price">75 MAD</span>
+                            <a href="order.html" class="btn btn-outline">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-card-image"></div>
+                    <div class="menu-card-content">
+                        <h3>Sushi Platter</h3>
+                        <p>Assorted sashimi and rolls - perfect for sharing</p>
+                        <div class="menu-card-footer">
+                            <span class="price">350 MAD</span>
+                            <a href="order.html" class="btn btn-outline">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="menu.html" class="btn btn-primary">Voir le Menu Complet</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <h2 class="section-title">Pourquoi Nous Choisir</h2>
+            <p class="section-subtitle">Ce qui rend Hanaya Sushi spécial</p>
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <div class="why-us-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Ingrédients Frais</h3>
+                    <p>Nous utilisons les poissons les plus frais et des ingrédients de qualité pour des saveurs japonaises authentiques</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Excellent Rapport Qualité-Prix</h3>
+                    <p>Des sushis de qualité à des prix abordables - un rapport qualité-prix exceptionnel</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">
+                        <i class="fas fa-motorcycle"></i>
+                    </div>
+                    <h3>Livraison Rapide</h3>
+                    <p>Livraison rapide et fiable à travers Casablanca - vos sushis arrivent frais</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="why-us-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Service Accueillant</h3>
+                    <p>Notre équipe s'engage à vous offrir une expérience de dining exceptionnelle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-preview">
+        <div class="container">
+            <h2 class="section-title">Ce Que Nos Clients Disent</h2>
+            <p class="section-subtitle">Ne nous croyez pas sur parole</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">Youssef M.</span>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Best sushi in Casablanca! The salmon sashimi is incredibly fresh and the Dragon Roll is to die for. Highly recommend!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">Fatima E.</span>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Amazing delivery service! The sushi arrived hot and fresh. Great portions and excellent taste. My new go-to sushi place!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-author">Karim B.</span>
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="review-text">"Great ambiance and friendly staff. The sushi platter for two is perfect for a date night. Will definitely come back!"</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="reviews.html" class="btn btn-primary">Voir Tous les Avis</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Vous avez faim? Commandez!</h2>
+            <p>Contactez-nous via WhatsApp pour les sushis les plus frais à Casablanca</p>
+            <a href="https://wa.me/212618175001?text=Hi%20Hanaya%20Sushi,%20I%20would%20like%20to%20order:" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> Commander sur WhatsApp</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Hanaya Sushi</h3>
+                    <p>Cuisine japonaise fraîche au cœur de Casablanca. Sur place, emporter et livraison disponibles.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/hanaya_sushi.casa?igsh=c2Iwand2bjE1bWxq" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/212618175001"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="reviews.html">Avis</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Informations de Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Romandie II près de Carrefour Market Romandie<br>Angle boulevard Bir Anzarane et Rue Ahmed Lazrak<br>Casablanca 20250</p>
+                    <p><i class="fas fa-phone"></i> 05 20 32 59 73</p>
+                    <p><i class="fab fa-whatsapp"></i> +212 618-175001</p>
+                </div>
+                <div>
+                    <h3>Horaires d'Ouverture</h3>
+                    <p>Lundi - Dimanche</p>
+                    <p>11:00 - 23:30</p>
+                    <p><i class="fas fa-concierge-bell"></i> Sur place &bull; À emporter &bull; Livraison</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hanaya Sushi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <div class="floating-call">
+        <a href="https://wa.me/212618175001?text=Hi%20Hanaya%20Sushi,%20I%20would%20like%20to%20order:" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+212618175001" class="call-btn"><i class="fas fa-phone"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
