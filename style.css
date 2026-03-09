@@ -817,7 +817,7 @@ img {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
 }
@@ -830,7 +830,9 @@ img {
 }
 
 .contact-grid .map-container {
-    min-height: 400px;
+    background: var(--secondary-light);
+    border-radius: 12px;
+    min-height: 350px;
 }
 
 .contact-item {
