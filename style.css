@@ -819,13 +819,18 @@ img {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 40px;
+    align-items: start;
 }
 
-.contact-info {
+.contact-grid .contact-info {
     background: var(--secondary);
     padding: 30px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+}
+
+.contact-grid .map-container {
+    min-height: 400px;
 }
 
 .contact-item {
